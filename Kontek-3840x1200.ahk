@@ -10,14 +10,17 @@ Return
 
 ^2::
 click 1465, 409, 1, 1
-sleep 1000
+sleep 400
 Send 08:00{tab}
-Sleep 1000
+Sleep 400
 Send 16:30
-Sleep 1000
+Sleep 400
 click 786, 232, 1, 1
-Sleep 1000
-Click 1951, 667, 1, 1
+Sleep 400
+;Click Save - Yes
+;Click 1875, 663 1, 1
+;Click Save - No
+;Click 1951, 667, 1, 1
 return
 
 ^3::
